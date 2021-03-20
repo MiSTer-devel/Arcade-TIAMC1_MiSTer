@@ -1,0 +1,161 @@
+Restore Archived Project report for tiamc1
+Sun Mar 07 12:22:44 2021
+Quartus Prime Version 17.0.0 Build 595 04/25/2017 SJ Lite Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Restore Archived Project Summary
+  3. Restore Archived Project Messages
+  4. Files Restored
+  5. Files Not Restored
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 2017  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel MegaCore Function License Agreement, or other 
+applicable license agreement, including, without limitation, 
+that your use is for the sole purpose of programming logic 
+devices manufactured by Intel and sold by Intel or its 
+authorized distributors.  Please refer to the applicable 
+agreement for further details.
+
+
+
++-------------------------------------------------------------------------+
+; Restore Archived Project Summary                                        ;
++---------------------------------+---------------------------------------+
+; Restore Archived Project Status ; Successful - Sun Mar 07 12:22:44 2021 ;
+; Revision Name                   ; tiamc1                                 ;
+; Top-level Entity Name           ; sys_top                               ;
+; Family                          ; Cyclone V                             ;
++---------------------------------+---------------------------------------+
+
+
++-----------------------------------+
+; Restore Archived Project Messages ;
++-----------------------------------+
+Info: Successfully restored 'D:/Mr/KC87/tiamc1_MiSTer/tiamc1_tmp_archive.qar' into the 'D:/Mr/KC87/TIA-MC1_MiSTer' directory
+Info: Generated report 'tiamc1.restore.rpt'
+
+
++----------------------------------------+
+; Files Restored                         ;
++----------------------------------------+
+; File Name                              ;
++----------------------------------------+
+; qar_info.json                          ;
+; tiamc1.qpf                              ;
+; tiamc1.sdc                              ;
+; tiamc1.sv                               ;
+; assignment_defaults.qdf                ;
+; build_id.v                             ;
+; files.qip                              ;
+; jtag.cdf                               ;
+; tiamc1.qsf                              ;
+; roms/basic_c.vhd                       ;
+; roms/caos42_c.vhd                      ;
+; roms/caos42_e.vhd                      ;
+; rtl/tiamc1.vhd                          ;
+; rtl/dualsram.vhd                       ;
+; rtl/memcontrol.vhd                     ;
+; rtl/periph/audio.vhd                   ;
+; rtl/periph/ctc.vhd                     ;
+; rtl/periph/ctc_channel.vhd             ;
+; rtl/periph/intcontroller.vhd           ;
+; rtl/periph/keyboard.vhd                ;
+; rtl/periph/m003.vhd                    ;
+; rtl/periph/pio.vhd                     ;
+; rtl/periph/pio_port.vhd                ;
+; rtl/periph/ps2if.vhd                   ;
+; rtl/periph/sio.vhd                     ;
+; rtl/periph/sio_channel.vhd             ;
+; rtl/periph/sio_fifo.vhd                ;
+; rtl/periph/tape.vhd                    ;
+; rtl/periph/uart.vhd                    ;
+; rtl/pll.cmp                            ;
+; rtl/pll.qip                            ;
+; rtl/pll.v                              ;
+; rtl/pll/pll_0002.qip                   ;
+; rtl/pll/pll_0002.v                     ;
+; rtl/sram.vhd                           ;
+; rtl/sysclock.vhd                       ;
+; rtl/t80/T80.vhd                        ;
+; rtl/t80/T80_ALU.vhd                    ;
+; rtl/t80/T80_MCode.vhd                  ;
+; rtl/t80/T80_Pack.vhd                   ;
+; rtl/t80/T80_Reg.vhd                    ;
+; rtl/t80/T80se.vhd                      ;
+; rtl/vga/video.vhd                      ;
+; rtl/vga/vidgen.vhd                     ;
+; sys/alsa.sv                            ;
+; sys/arcade_video.v                     ;
+; sys/ascal.vhd                          ;
+; sys/audio_out.v                        ;
+; sys/build_id.tcl                       ;
+; sys/ddr_svc.sv                         ;
+; sys/f2sdram_safe_terminator.sv         ;
+; sys/gamma_corr.sv                      ;
+; sys/hdmi_config.sv                     ;
+; sys/hps_io.v                           ;
+; sys/hq2x.sv                            ;
+; sys/i2c.v                              ;
+; sys/i2s.v                              ;
+; sys/iir_filter.v                       ;
+; sys/ltc2308.sv                         ;
+; sys/math.sv                            ;
+; sys/mcp23009.sv                        ;
+; sys/mt32pi.sv                          ;
+; sys/osd.v                              ;
+; sys/pll_audio.qip                      ;
+; sys/pll_audio.v                        ;
+; sys/pll_audio/pll_audio_0002.qip       ;
+; sys/pll_audio/pll_audio_0002.v         ;
+; sys/pll_cfg.qip                        ;
+; sys/pll_cfg.v                          ;
+; sys/pll_cfg/altera_pll_reconfig_core.v ;
+; sys/pll_cfg/altera_pll_reconfig_top.v  ;
+; sys/pll_hdmi.qip                       ;
+; sys/pll_hdmi.v                         ;
+; sys/pll_hdmi/pll_hdmi_0002.qip         ;
+; sys/pll_hdmi/pll_hdmi_0002.v           ;
+; sys/pll_hdmi_adj.vhd                   ;
+; sys/pll_q17.qip                        ;
+; sys/scandoubler.v                      ;
+; sys/scanlines.v                        ;
+; sys/sd_card.sv                         ;
+; sys/sigma_delta_dac.v                  ;
+; sys/spdif.v                            ;
+; sys/sys.qip                            ;
+; sys/sys.tcl                            ;
+; sys/sys_analog.tcl                     ;
+; sys/sys_dual_sdram.tcl                 ;
+; sys/sys_top.sdc                        ;
+; sys/sys_top.v                          ;
+; sys/sysmem.sv                          ;
+; sys/vga_out.sv                         ;
+; sys/video_cleaner.sv                   ;
+; sys/video_freak.sv                     ;
+; sys/video_mixer.sv                     ;
++----------------------------------------+
+
+
++--------------------+
+; Files Not Restored ;
++--------------------+
+; File Name          ;
++--------------------+
+
+

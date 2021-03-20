@@ -1,0 +1,28 @@
+<misterromdescription>
+	<name>Konek Gorbunok</name>
+	<mameversion>0229</mameversion>
+	<setname>Konek Gorbunok</setname>
+	<mratimestamp>20210317092800</mratimestamp>
+	<year>1988</year>
+	<manufacturer>Terminal</manufacturer>
+	<category>Action</category>
+	<rbf>TIAMC1</rbf>
+
+	<rom index="1">
+		<part>01</part>
+	</rom>
+
+	<rom index="0" zip="konek.zip" md5="6d0297d1d264e5da5d2349ebb557189b">
+		<part crc="9EED06EE" name="a2.b07"/>
+		<part crc="EEFF9B77" name="a3.g07"/>
+		<part crc="FFF9E089" name="a5.l07"/>
+		<part crc="092E8EE2" name="a6.r07"/>
+		<part crc="F41D82C9" name="g1.d17"/>
+		<part crc="B44E7491" name="g2.d17"/>
+		<part crc="91301282" name="g3.d17"/>
+		<part crc="3FF0C20B" name="g4.d17"/>
+		<part crc="E3196D30" name="g5.d17"/>
+		<part crc="FE4E9FDD" name="g7.d17"/>
+	</rom>
+   
+</misterromdescription>

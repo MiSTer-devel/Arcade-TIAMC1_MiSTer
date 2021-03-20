@@ -1,0 +1,26 @@
+<misterromdescription>
+	<name>Gorodki</name>
+	<mameversion>0229</mameversion>
+	<setname>Gorodki</setname>
+	<mratimestamp>20210317172246</mratimestamp>
+	<year>1988</year>
+	<manufacturer>Terminal</manufacturer>
+	<category>Sport</category>
+	<rbf>TIAMC1</rbf>
+
+	<rom index="1">
+		<part>05</part>
+	</rom>
+
+	<rom index="0" zip="gorodki.zip" md5="173f43dafeaa1ab936ee9f84effd0778">
+		<part crc="B3DD4DEC" name="66.2a"/>
+		<part crc="C94F5579" name="67.3a"/>
+		<part crc="0D64708D" name="68.5a"/>
+		<part crc="57C8AE81" name="69.6a"/>
+		<part crc="BD3EB624" name="70.1g"/>
+		<part crc="5A9EBD8D" name="71.2g"/>
+		<part crc="EDCC5C13" name="72.3g"/>
+		<part crc="AE69B9F3" name="73.4g"/>
+	</rom>
+   
+</misterromdescription>

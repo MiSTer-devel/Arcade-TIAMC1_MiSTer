@@ -1,0 +1,29 @@
+<misterromdescription>
+	<name>Kot-Rybolov</name>
+	<mameversion>0229</mameversion>
+	<setname>Kot-Rybolov</setname>
+	<mratimestamp>20210318155712</mratimestamp>
+	<year>1988</year>
+	<manufacturer>Terminal</manufacturer>
+	<category>Action</category>
+	<rbf>TIAMC1</rbf>
+
+	<rom index="1">
+		<part>80</part>
+	</rom>
+
+	<rom index="0" zip="kot.zip" md5="none">
+		<part crc="5DC3A102" name="850.5"/>
+		<part crc="7DB239A0" name="851.6"/>
+		<part crc="C7700F88" name="852.7"/>
+		<part crc="B94BF1AF" name="853.8"/>
+		<part crc="44E5E8FC" name="854.6"/>
+		<part crc="0BB2E4B2" name="855.7"/>
+		<part crc="9180C98F" name="856.8"/>
+		<part crc="42447F4A" name="846.1"/>
+		<part crc="99ADA5E8" name="847.2"/>
+		<part crc="A124CFF4" name="848.3"/>
+		<part crc="5D27FDA6" name="849.4"/>
+	</rom>
+   
+</misterromdescription>
