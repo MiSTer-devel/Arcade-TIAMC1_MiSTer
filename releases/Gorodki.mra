@@ -6,7 +6,7 @@
 	<year>1988</year>
 	<manufacturer>Terminal</manufacturer>
 	<category>Sport</category>
-	<rbf>TIA-MC1</rbf>
+	<rbf>TIAMC1</rbf>
 
 	<rom index="1">
 		<part>05</part>
