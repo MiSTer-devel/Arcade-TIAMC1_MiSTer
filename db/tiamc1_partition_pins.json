@@ -12,6 +12,10 @@
 					"strict" : false
 				},
 				{
+					"name" : "HDMI_TX_D[20]",
+					"strict" : false
+				},
+				{
 					"name" : "HDMI_TX_D[21]",
 					"strict" : false
 				},
@@ -173,10 +177,6 @@
 				},
 				{
 					"name" : "HDMI_TX_D[19]",
-					"strict" : false
-				},
-				{
-					"name" : "HDMI_TX_D[20]",
 					"strict" : false
 				},
 				{

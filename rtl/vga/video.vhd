@@ -250,11 +250,11 @@ begin
 			s1.pos_x <= s0.cnt_h - 66; -- too far
 			s1.pos_y <= s0.cnt_v - 6;
 			-- horizontal sync
-			if s0.cnt_h < 20 then
+			if s0.cnt_h < 40 then		-- B&O syncs ok
 				s1.sync_h <= H_SYNC_ACTIVE;
 			end if;
 			-- vertical sync
-			if s0.cnt_v > 280 and s0.cnt_v < 313 then
+			if s0.cnt_v > 280 and s0.cnt_v < 284 then		-- seems ok? B&O seems to like it
 				s1.sync_v <= V_SYNC_ACTIVE;
 			end if;
 		end if;
@@ -341,16 +341,22 @@ begin
 		end if;
 		-- stage 6
 		if s6.do_stuff = '1' then
-			if s6.color_sp /= x"f" then
-				-- draw sprite
-				vgaRed    <= palette(to_integer(unsigned(s6.color_sp)))(23 downto 16);
-				vgaGreen  <= palette(to_integer(unsigned(s6.color_sp)))(15 downto 8);
-				vgaBlue   <= palette(to_integer(unsigned(s6.color_sp)))(7 downto 0);
-			else
-				-- draw char
-				vgaRed    <= palette(to_integer(unsigned(s6.color_ch)))(23 downto 16);
-				vgaGreen  <= palette(to_integer(unsigned(s6.color_ch)))(15 downto 8);
-				vgaBlue   <= palette(to_integer(unsigned(s6.color_ch)))(7 downto 0);
+			if s6.blank_h /= H_BLANK_ACTIVE and s6.blank_v /= V_BLANK_ACTIVE then
+				if s6.color_sp /= x"f" then
+					-- draw sprite
+					vgaRed    <= palette(to_integer(unsigned(s6.color_sp)))(23 downto 16);
+					vgaGreen  <= palette(to_integer(unsigned(s6.color_sp)))(15 downto 8);
+					vgaBlue   <= palette(to_integer(unsigned(s6.color_sp)))(7 downto 0);
+				else
+					-- draw char
+					vgaRed    <= palette(to_integer(unsigned(s6.color_ch)))(23 downto 16);
+					vgaGreen  <= palette(to_integer(unsigned(s6.color_ch)))(15 downto 8);
+					vgaBlue   <= palette(to_integer(unsigned(s6.color_ch)))(7 downto 0);
+				end if;
+			else	-- B&O likes it
+				vgaRed   <= x"00";
+				vgaGreen <= x"00";
+				vgaBlue  <= x"00";
 			end if;
 			vgaHSync  <= s6.sync_h;
 			vgaVSync  <= s6.sync_v;
