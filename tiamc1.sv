@@ -214,6 +214,7 @@ localparam CONF_STR = {
 	"-;",
 	"T0,Reset;",
 	"R0,Reset and close OSD;",
+	"J1,Button 1,Button 2,Coin/Start;",
 	"V,v",`BUILD_DATE 
 };
 

@@ -8,6 +8,8 @@
 	<category>Sport</category>
 	<rbf>TIAMC1</rbf>
 
+	<buttons names="Button 1,Button 2,Coin/Start" default="A,B,Y"/>
+
 	<rom index="1">
 		<part>05</part>
 	</rom>
