@@ -1,30 +1,56 @@
 <misterromdescription>
 	<name>Snezhnaja Koroleva</name>
-	<mameversion>0229</mameversion>
-	<setname>Snezhnaja Koroleva</setname>
-	<mratimestamp>20210317164028</mratimestamp>
+	<region></region>
+	<homebrew>no</homebrew>
+	<bootleg>no</bootleg>
+	<version></version>
+	<alternative></alternative>
+	<platform>TIAMC1</platform>
+	<series></series>
 	<year>1988</year>
 	<manufacturer>Terminal</manufacturer>
-	<category>Action</category>
-	<rbf>TIAMC1</rbf>
+	<category>Maze</category>
 
-	<buttons names="Button 1,Button 2,Coin/Start" default="A,B,Y"/>
+	<setname>koroleva</setname>
+	<parent>koroleva</parent>
+	<mameversion>0229</mameversion>
+	<rbf>tiamc1</rbf>
+	<about></about>
+
+	<resolution>15kHz</resolution>
+	<rotation>horizontal</rotation>
+	<flip></flip>
+
+	<players>1</players>
+	<joystick>4-way</joystick>
+	<special_controls></special_controls>
+	<num_buttons>1</num_buttons>
+	<buttons default="A,B,Y" names="Button 1,Button 2,Coin/Start"></buttons>
+
+	<switches></switches>
 
 	<rom index="1">
 		<part>03</part>
-	</rom>
+		</rom>
+	<rom index="0" md5="da51d81267cd3d4254e8d227d7cdd530" zip="koroleva.zip">
+		<part crc="6F39F8BE" name="00.2a"></part>
+		<part crc="7BDFDD19" name="01.3a"></part>
+		<part crc="97770B0F" name="02.5a"></part>
+		<part crc="9B0A686A" name="03.6a"></part>
+		<part crc="C3701225" name="04.1g"></part>
+		<part crc="1B3742CE" name="05.2g"></part>
+		<part crc="48074786" name="06.3g"></part>
+		<part crc="41A4ADB5" name="07.4g"></part>
+		<part crc="8F379D95" name="08.5g"></part>
+		<part crc="397F41F8" name="10.7g"></part>
+		</rom>
+	<rom index="2"></rom>
+	<rom index="3"></rom>
+	<rom index="4"></rom>
 
-	<rom index="0" zip="koroleva.zip" md5="da51d81267cd3d4254e8d227d7cdd530">
-		<part crc="6F39F8BE" name="00.2a"/>
-		<part crc="7BDFDD19" name="01.3a"/>
-		<part crc="97770B0F" name="02.5a"/>
-		<part crc="9B0A686A" name="03.6a"/>
-		<part crc="C3701225" name="04.1g"/>
-		<part crc="1B3742CE" name="05.2g"/>
-		<part crc="48074786" name="06.3g"/>
-		<part crc="41A4ADB5" name="07.4g"/>
-		<part crc="8F379D95" name="08.5g"/>
-		<part crc="397F41F8" name="10.7g"/>
-	</rom>
-   
+	<nvram></nvram>
+
+	<remark></remark>
+
+	<mratimestamp>20210430005030</mratimestamp>
 </misterromdescription>
