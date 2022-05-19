@@ -1,0 +1,17 @@
+Analysis & Synthesis Status : Successful - Wed May 18 21:42:47 2022
+Quartus Prime Version : 17.0.2 Build 602 07/19/2017 SJ Standard Edition
+Revision Name : TIAMC1
+Top-level Entity Name : sys_top
+Family : Cyclone V
+Logic utilization (in ALMs) : N/A
+Total registers : 29596
+Total pins : 145
+Total virtual pins : 0
+Total block memory bits : 1,492,189
+Total DSP Blocks : 31
+Total HSSI RX PCSs : 0
+Total HSSI PMA RX Deserializers : 0
+Total HSSI TX PCSs : 0
+Total HSSI PMA TX Serializers : 0
+Total PLLs : 3
+Total DLLs : 0
